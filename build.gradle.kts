@@ -1,5 +1,9 @@
+buildscript {
+    extra["kotlinVersion"] = "1.9.23"
+}
+
 plugins {
-    kotlin("jvm") version "1.9.23" apply false
+    kotlin("jvm") version "${project.extra["kotlinVersion"]}" apply false
 }
 
 allprojects {
