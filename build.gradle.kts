@@ -1,5 +1,6 @@
 buildscript {
     extra["kotlinVersion"] = "1.9.23"
+    extra["pluginVersion"] = "1.0-SNAPSHOT"
 }
 
 plugins {
